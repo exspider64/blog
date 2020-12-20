@@ -1,7 +1,7 @@
-import MasonryPost from './masonry-post'
-import PostMasonry from './post-masonry'
+import Post from './post'
+import PostContainer from './postContainer'
 
 export {
-    MasonryPost,
-    PostMasonry
+    Post,
+    PostContainer
 }

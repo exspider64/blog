@@ -1,7 +1,7 @@
 import React from 'react'
 import {categoryColors} from './styles'
 
-export default function MasonryPost({post, tagsOnTop}) {
+export default function Post({post, tagsOnTop}) {
      
     const backgroundImage = { backgroundImage: `url("${require(`../../assets/images/${post.image}`).default}")` };
     
@@ -13,7 +13,7 @@ export default function MasonryPost({post, tagsOnTop}) {
                 <div className="tags-container">
                     {
                         post.categories.map((tag, i) => {
-                            return (<span key={i} className="tag" style={{backgroundColor: categoryColors[tag]}}>
+                            return (<span k ey={i} className="tag" style={{backgroundColor: categoryColors[tag]}}>
                                 {tag.toUpperCase()}
                             </span>)
                         })

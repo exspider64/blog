@@ -2,13 +2,13 @@ import moment from 'moment'
 
 let trending = [
     {
-        title: 'My journey',
+        title: 'Post 1',
         date: moment().format('MMMM DD, YYYY'),
         image: 'journey.jpeg',
         categories: ['Journey']
     },
     {
-        title: 'Hello World!',
+        title: 'Post 2',
         date: moment().format('MMMM DD, YYYY'),
         image: 'journey.jpeg',
         categories: ['javascript']
