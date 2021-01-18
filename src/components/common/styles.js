@@ -1,6 +1,6 @@
 const categoryColors = {
-    "Journey": "red",
-    javascript: 'rgb(90, 200, 250)'
+    "journey": "red",
+    "javascript": 'rgb(90, 200, 250)'
 };
 
 export {

@@ -5,13 +5,13 @@ let trending = [
         title: 'Post 1',
         date: moment().format('MMMM DD, YYYY'),
         image: 'journey.jpeg',
-        categories: ['Journey']
+        categories: ['journey']
     },
     {
         title: 'Post 2',
         date: moment().format('MMMM DD, YYYY'),
         image: 'journey.jpeg',
-        categories: ['javascript']
+        categories: ['javascript', 'journey']
     },
     {
         title: 'Post 3',

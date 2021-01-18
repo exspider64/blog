@@ -1,4 +1,4 @@
-.masonry-post {
+.post {
     position: relative;
     border-radius: 5px;
     overflow: hidden;
@@ -8,7 +8,8 @@
     width: 100%;
     text-decoration: none;
     margin: 0 auto;
-
+    min-height: 200px;
+    
     .image-text {
         height: 100%;
         width: 100%;
@@ -43,5 +44,30 @@
         margin-bottom: 15px;
         margin-top: -1px;
         color: white;
+    }
+
+    .post-date {
+        color: $text-light;
+    }
+
+    .tags-container {
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 15px;
+        margin-left: -2 px;
+        color: white;
+        .tag {
+            border-radius: 5px;
+            padding: 4px 8px;
+            margin-right: 5px;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .post {
+        width: 100%;
+        margin: 10px 0;
+        height: 100%;
     }
 }

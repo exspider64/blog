@@ -1,0 +1,17 @@
+{
+  "name": "blog-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Jasper Chen",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-koa": "^2.19.2",
+    "graphql-tools": "^7.0.2",
+    "koa": "^2.13.1",
+    "moment": "^2.29.1"
+  }
+}

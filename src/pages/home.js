@@ -22,7 +22,7 @@ export default function Home () {
     <section className="container home">
         <div className="row">
             <h1>Trending Posts</h1>
-            <PostContainer posts={trending} columns={3}/>
+            <PostContainer className="featuredPostsContainer" posts={trending} columns={3}/>
         </div>
     </section>
     )

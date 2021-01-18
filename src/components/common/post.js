@@ -8,12 +8,12 @@ export default function Post({post, tagsOnTop}) {
     const style = {...backgroundImage, ...post.style};
     
     return (
-        <a className="masonry-post overlay" style={style} href={post.link}>
+        <a className="post overlay" style={style} href={post.link}>
             <div className="image-text">
                 <div className="tags-container">
                     {
                         post.categories.map((tag, i) => {
-                            return (<span k ey={i} className="tag" style={{backgroundColor: categoryColors[tag]}}>
+                            return (<span key={i} className="tag" style={{backgroundColor: categoryColors[tag]}}>
                                 {tag.toUpperCase()}
                             </span>)
                         })

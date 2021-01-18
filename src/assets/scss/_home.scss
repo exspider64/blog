@@ -4,3 +4,16 @@
         color:$text-color;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .home {
+        h1 {
+            margin-block-start: 1.5em;
+            margin-block-end: 1.5em;
+        }
+        
+        .featuredPostsContainer {
+            flex-direction: column;
+        }
+    }
+} 

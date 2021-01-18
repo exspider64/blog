@@ -1,0 +1,13 @@
+.postContainer {
+    display: grid;
+    grid-gap: 30px;
+    height: 300px;
+}
+
+@media screen and (max-width: 900px) {
+    .postContainer {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+}
